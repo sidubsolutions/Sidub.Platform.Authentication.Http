@@ -1,0 +1,16 @@
+{
+  "metadata": [
+    // Filter...
+    {
+      "src": [
+        {
+          "files": [ "**/*.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "src": "./Authentication.Http/"
+        }
+      ],
+      "dest": "./_DocFX/Authentication.Http/",
+      "shouldSkipMarkup": false
+    }
+  ]
+}
